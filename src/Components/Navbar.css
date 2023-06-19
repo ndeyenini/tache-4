@@ -1,0 +1,100 @@
+.btn{
+  background-color: aliceblue;
+}
+.ka{
+    color:#ffff ;
+}
+.nave{
+    background-image:url(./images/image-header.jpg) ;
+  background-repeat: no-repeat;
+  background-position: center;
+  /* background-size: cover;  */
+   height: 650px;
+   width: 100%;
+}
+.p {
+  animation: animet 2s linear infinite;
+}
+
+@keyframes animet {
+
+  0% {
+    transform: translateY(-25px);
+  }
+  50% {
+    transform: translateY(25px);
+  }
+
+  100% {
+    transform: translateY(-25px) ;
+  }
+
+}
+.sec{
+  /* background-color: rgb(98, 194, 242); */
+  /* width: 10%; */
+}
+/* .pil{
+  background-color: #ffff;
+  
+} */
+.div {
+  margin-top: 25%;
+}
+.ima{
+  /* padding-left: 10%; */
+  width: 100%;
+}
+ .imag{
+width: 100%;
+}
+.imma{
+  /* left: 2%; */
+   /* height: 86%; */
+ width: 100%; 
+} 
+.wold{
+  width: 100%;
+}
+.section{
+  background-color: rgb(125, 235, 198);
+  height: 50vh;
+}
+/* h1{
+  margin-top: 5%;
+} */
+.about{
+  color: #ffff;
+  margin-top: 10%;
+  display: flex;
+  justify-content:space-around;
+  text-align: center;
+
+}
+.ram{
+  display: flex; 
+   justify-content:center;
+  text-align: center;
+}
+ /* .fa::before{
+  content: "";
+    width: 42px;
+    height: 42px;
+    position: absolute;
+    background-color: #ffffff;
+ 
+    transform: scale(0);
+	transition: 0.3s ease-in-out;
+}  */
+.fa:hover{
+    color: #ffff !important;
+} 
+/* .ram .fa {
+	z-index: 1;
+	transition: 0.3s ease-in-out;
+} */
+.desi{
+  position: absolute;
+  margin-top: -15%;
+  margin-left: 15%;
+}
